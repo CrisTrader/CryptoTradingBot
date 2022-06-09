@@ -1,4 +1,4 @@
-class ScalingBot: public KryptoNinja {
+﻿class ScalingBot: public KryptoNinja {
   public:
     analpaper::Engine engine;
   public:
@@ -25,7 +25,7 @@ class ScalingBot: public KryptoNinja {
                                                ANSI_NEW_LINE "or leave it unset to not place pong orders"},
           {"pong-scale",   "1",      nullptr,  "place new pongs away from last pongs instead of from pings"},
           {"quit-after",   "NUMBER", "0",      "set NUMBER of filled pings before quit"},
-          {"wait-width",   "AMOUNT", "0",      "set AMOUNT of price width from last pong before start"},
+          
           {"wait-price",   "AMOUNT", "0",      "set AMOUNT of fair value price deviation before start"},
           {"time-price",   "NUMBER", "0",      "set NUMBER of seconds to measure price deviation difference"}
         },

@@ -62,7 +62,7 @@ import {Socket, Shared, Models} from 'lib/K';
           </div>
           <br [hidden]="product.exchange=='HITBTC'" />
           <a href="#"
-            [hidden]="product.exchange=='HITBTC'"
+            [hidden]="product.exchange=='hitbtc'"
             (click)="toggleWatch(product.exchange.toLowerCase(), (product.base+'-'+product.quote).toLowerCase())">Watch</a>
           <br [hidden]="product.exchange=='HITBTC'" />
           <br/>

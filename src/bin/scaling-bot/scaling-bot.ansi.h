@@ -11,7 +11,7 @@
 #define ANSI_RED                   "5"
 
 //! \def
-//! \brief Define color magenta as red.
+//! \ Define color magenta as red.
 #define ANSI_MAGENTA               "1"
 
 //! \def

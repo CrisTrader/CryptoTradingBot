@@ -28,9 +28,7 @@ namespace analpaper {
         return a.second < b.second;
       };
       bool find(const Price &price, const unordered_map<string, Price> *const book) const {
-        return any_of(book->begin(), book->end(), [&](auto &it) {
-          return abs(it.second - price) < limit();
-        });
+        return any_of(book->begin        });
       };
   };
 
